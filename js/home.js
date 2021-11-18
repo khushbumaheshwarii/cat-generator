@@ -2,7 +2,7 @@ var div = document.getElementById('flex-cat-gen');
 function generatorCat(){
     var image = document.createElement('img');
     
-    image.src  ="https://cdn2.thecatapi.com/images/9du.gif"
+    image.src  ="http://thecatapi.com/api/images/get?format=src&type=gif&timestamp"
     image.id="remove-image";
     image.width="150"
     div.appendChild(image);
