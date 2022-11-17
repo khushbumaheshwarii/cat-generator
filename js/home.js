@@ -10,11 +10,3 @@ function generatorCat(){
 function reset(){
     document.getElementById('remove-image').remove();
 }
-// we can use this---------
-
-
-// const reset = function(){
-//     const image =document.getElementById("remove-image");
-//     div.removeChild(image);
-// }
-// // reset();
